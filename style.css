@@ -264,4 +264,51 @@ padding:6px;
 
 .search-box button{
 padding:6px 10px;
+
+}
+/* MOBILE RESPONSIVE */
+@media (max-width:768px){
+
+.navbar{
+flex-direction:column;
+align-items:center;
+}
+
+.menu ul{
+flex-direction:column;
+gap:10px;
+}
+
+.content{
+text-align:center;
+padding:20px;
+}
+
+.form{
+width:90%;
+}
+
+.subjects{
+flex-direction:column;
+gap:40px;
+text-align:center;
+}
+
+.search{
+flex-direction:column;
+}
+
+.dropdown-content{
+position:static;
+width:100%;
+}
+
+}
+img{
+max-width:100%;
+height:auto;
+}
+
+body{
+overflow-x:hidden;
 }
