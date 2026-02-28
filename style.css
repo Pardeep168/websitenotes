@@ -313,3 +313,12 @@ width:100%;
 }
 
 }
+
+.pdf-list{
+min-width:260px;
+}
+
+.pdf-list a{
+white-space:normal;
+line-height:1.3;
+}
