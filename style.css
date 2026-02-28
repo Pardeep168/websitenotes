@@ -5,13 +5,13 @@ width:100%;
 background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(web.jpg);
 background-position:center;
 background-size:cover;
-height:109vh;
+min-height:100vh;
 }
 
 .navbar{
-width:1200px;
-height:75px;
-margin:auto;
+max-width:1200px;
+width:100%;
+padding:0 20px;
 }
 
 .icon{width:200px;float:left;height:70px;}
@@ -33,11 +33,7 @@ align-items:center;
 }
 
 ul li{
-list-style:none;
-margin-left:62px;
-margin-top:27px;
-font-size:14px;
-position:relative;
+margin:0 15px;
 }
 
 ul li a{
@@ -70,8 +66,9 @@ border-radius:0 5px 5px 0;
 
 /* HERO */
 .content{
-width:1200px;
-margin:auto;
+max-width:1200px;
+width:100%;
+padding:0 20px;
 color:white;
 position:relative;
 }
@@ -99,10 +96,13 @@ margin-left:20px;border-radius:10px;cursor:pointer;
 
 /* LOGIN */
 .form{
-width:250px;height:380px;
+width:250px;
 background:rgba(0,0,0,0.8);
-position:absolute;top:-20px;left:870px;
-border-radius:10px;padding:25px;
+position:absolute;
+right:20px;
+top:20px;
+border-radius:10px;
+padding:25px;
 }
 
 .form h2{
@@ -312,3 +312,4 @@ height:auto;
 body{
 overflow-x:hidden;
 }
+
